@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <!-- Coded by Ethan Leitch, 2021 -->
+
+    <head>
+        <meta charset="utf-8"/>
+		<title>ThinkHarder Games</title>
+        <link rel="stylesheet" href="../css/styles.css"/>
+        <link rel="icon" href="../media/images/favicon_32x32.png" type="image/png"/>
+
+        <style>
+            /* These buttons are only used on this page, so I only added the css to this page. */
+            #main-button-1 {
+            background-color: #ffdd01;
+            }
+
+            #main-button-2 {
+            background-color: #70baff;
+            }
+        </style>
+	</head>
+
+	<body>
+        
+        <!-- Navigation Bar -->
+        <div class="navigation-bar">
+            <a href="index.html"><img id="logo" alt="logo" src="../media/gifs/animated_logo_small.gif"></a> 
+            <ul>
+                <li><a id="playbutton" href="play.html">Play</a></li>
+                <li><a class="underline" href="contact.html">Contact</a></li>
+                <li><a class="underline" href="newsletter.html">Newsletter</a></li>
+                <li><a class="underline" href="about.html">About</a></li>
+                <li><a class="active">Home</a></li>
+            </ul>
+        </div>
+
+        <br>
+
+        <!-- Welcome information and YouTube video embed -->
+        <div class="parent grid-parent">
+            <div class="child">
+                <h1>Welcome!</h1>
+                <p><i>Making learning addicting</i> is our motto from back when our company was created, and it still holds true today. With our fun, free educational games, your students won't be able to put them down!</p>
+                <div style="padding-top: 20px;"> 
+                    <form method="get" action="play.html" style="display: inline-block;">
+                        <button id="main-button-1">Play</button>
+                    </form>
+                    <form method="get" action="about.html" style="display: inline-block;">
+                        <button id="main-button-2">About</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="child" style="padding-top: 20px; padding-bottom: 17px;">
+                <iframe width="577" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div style="padding-top: 10px;">
+            <div class="testimonials">
+                <h1 style="text-align: center; padding-bottom: 10px;">Testimonials</h1>
+                <div class="parent grid-parent">
+                    <div>
+                        <img class="resize" src="../media/images/happy_1.jpg" alt="happy person 1">
+                        <div style="padding-left: 127px;"><p>"My children used to hate maths. Now they have fun everyday with ThinkHarder Games!"</p></div>
+                    </div>
+                    <div>
+                        <img class="resize" src="../media/images/happy_2.jpg" alt="happy person 2">
+                        <div style="padding-left: 127px;"><p>"My children love ThinkHarder games a lot. It's a very useful learning tool!"</p></div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <footer>
+            <p>© 2021 ThinkHarder Games Inc. All rights reserved. Read our <a href="license.html">license document</a> for more information.</p>        
+        </footer>
+        
+    </body>
+
+</html>

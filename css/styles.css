@@ -1,0 +1,152 @@
+/* Fonts */
+@font-face {
+    font-family: "rubik";
+    src: url("../media/fonts/rubik/Rubik-VariableFont_wght.ttf") format("truetype-variations");
+    font-weight: 1 999;
+}
+
+/* Navigation Bar - This took way too long to code */
+.navigation-bar {
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 12px;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "rubik";
+    font-size: 10px;
+}
+
+.navigation-bar li {
+    float: right;
+    padding-top: 12px; 
+    padding-left: 5px; /* small gap between items in navigation menu */
+}
+
+.navigation-bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.navigation-bar .active {
+    color: #9e9e9e;
+}
+
+#playbutton {
+    background-color: #ffdd01;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30px;
+    height: 10px;
+}
+
+/* Logo for the navigation bar */
+#logo {
+    width: 7.77%;
+    height: auto;
+    float: left;
+    padding-top: 7px;
+    vertical-align: middle;
+}
+
+/* Other page stuff */
+h1 {
+    font-size: 50px;
+    font-family: "rubik";
+    font-weight: normal;
+    margin: 0px;
+}
+
+p {
+    font-family: "rubik";
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0px;
+}
+
+iframe {
+    border: 0px;
+}
+
+/* Fancy boxes for everything to go into */
+.grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 10px;
+}
+
+.child {
+    background-color: #e5f7ff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "rubik";
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.testimonials {
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "rubik";
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.testimonial-child {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "rubik";
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.resize {
+    width: 20%;
+    height: auto;
+    float: left;
+    border-radius: 15px;
+}
+
+/* Generic button */
+button { 
+    border: none;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: lighter;
+    filter: drop-shadow(2px 4px 5px #afafaf);
+}
+
+/* Removes drop shadow on click of button */
+button:active {
+    filter: drop-shadow(0px 0px 0px);
+}
+
+/* Footer of the page */
+footer p {
+    font-size: 13px;
+    color: #858585;
+    padding-left: 10px;
+    padding-top: 5px;
+}
